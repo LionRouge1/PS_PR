@@ -1,5 +1,5 @@
 * {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ nav {
 }
 
 main {
- background-color:  #dfe1e6;
+ background-color: #dfe1e6;
 }
 
 .about {
@@ -73,12 +73,22 @@ main {
 }
 
 section {
- display: block;
- background-color: white;
- border: 1px solid #dfe1e6;
- border-radius: 20px;
- margin: 100px 20px;
- padding: 20px;
+  display: block;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  margin: 100px 20px;
+  padding: 20px;
+}
+
+article > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 10px 0;
 }
 
 .about > h1 {
@@ -139,16 +149,6 @@ section {
   height: 100%;
 }
 
-article > h1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172B4D;
-  margin: 10px 0;
-}
-
 .frame {
   width: 236px;
   height: 32px;
@@ -158,7 +158,8 @@ article > h1 {
   grid-template-columns: auto auto auto auto auto;
 }
 
-.frame > p, .frame > h2{
+.frame > p,
+.frame > h2 {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -168,6 +169,7 @@ article > h1 {
 .frame > h2 {
   color: #344563;
 }
+
 .frame > div {
   background-color: #e5e5e5;
   border-radius: 50%;
@@ -179,9 +181,6 @@ article > h1 {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 12px 0px;
 }
 
@@ -196,8 +195,8 @@ article > h1 {
 
 .lang > p {
   height: inherit;
-  background-color: #EBEBFF;
-  color: #6070FF;
+  background-color: #ebebff;
+  color: #6070ff;
   border-radius: 10px;
   align-items: center;
   text-align: center;
@@ -206,8 +205,8 @@ article > h1 {
 button {
   width: 124px;
   height: 48px;
-  top: calc(50% - 48px/2);
-  border: 1px solid #6070FF;
+  top: calc(50% - 48px / 2);
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   font-weight: 500;
@@ -216,7 +215,6 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   background-color: white;
 }
-
