@@ -1,10 +1,10 @@
-![](https://github.com/LionRouge1/Portfolio.git)
+![](https://github.com/LionRouge1/PS_PR.git)
 
 # Portfolio
 
 > One paragraph statement about the project.
 
-![screenshot](images/Screenshot_portfolio.png)
+![screenshot](images/Screenshot_ps_pr.png)
 
 Setup and mobile version skeloton
 

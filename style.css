@@ -68,6 +68,8 @@ main {
   background-size: cover;
   margin-left: 0;
   margin-right: 0;
+  border-top: none;
+  height: 490px;
   padding: 20px;
   border-radius: 0 0 0 65px;
 }
@@ -75,7 +77,7 @@ main {
 section {
   display: block;
   background-color: white;
-  border: 1px solid #dfe1e6;
+  border: 2px solid #dfe1e6;
   border-radius: 20px;
   margin: 100px 20px;
   padding: 20px;
@@ -152,7 +154,7 @@ article > h1 {
   width: 236px;
   height: 32px;
   display: grid;
-  margin: 10px;
+  margin: 10px 0;
   align-items: center;
   grid-template-columns: auto auto auto auto auto;
 }
@@ -194,6 +196,7 @@ article > h1 {
 
 .lang > p {
   height: inherit;
+  display: grid;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 10px;
